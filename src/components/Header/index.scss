@@ -1,0 +1,30 @@
+.Header{
+   
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem, 5rem;
+    background-color: #01010b;
+    height: 60px;
+
+    h1{
+        color:white;
+        margin-left: 5px; 
+        font-size: 30px;
+        background-color: transparent;
+
+    }
+    input{
+        margin-right: 10px;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+        background-color: white;
+        // background: transparent;
+        border: none;
+    }
+    input:focus{
+        border: none;
+        outline: none;
+    }
+}
