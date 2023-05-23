@@ -10,7 +10,7 @@ const Header = (props) => {
   }
   return (
    <header className='Header'>
-    <h1> DNC Movie List </h1>
+    <h1> Dangerous Movie List </h1>
     <form onSubmit={handleSubmit}>
       <input type="text" placeholder='Pesquise por filmes'/>
     </form>
